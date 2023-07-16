@@ -172,6 +172,7 @@ header .menu {
 footer {
   background-color: white;
   margin: 0 auto;
+  width: 90%;
   color: rgba(141, 94, 84);
   padding: 10px 0;
   font-weight: bold;
@@ -203,8 +204,8 @@ footer ul li img {
 .story {
   background-color: #754D46;
   overflow: hidden;
-  width: 100%;
-
+  width: 90%;
+  margin: 0 auto;
 }
 
 .shimmery {
@@ -220,7 +221,7 @@ footer ul li img {
 
 .shimmery .content {
   margin: 0 auto;
-  width: 95%;
+  width: 90%;
   height: 90%;
   padding: 30px 0;
   background-color: rgb(255, 255, 255, 0.5);
@@ -254,60 +255,6 @@ footer ul li img {
   letter-spacing: 3px;
   text-shadow: 0.5px 0.5px 0.5px white;
 }
-
-/* .contentLeft{
-  float: left;
-  width: 50%;
-  height: 200px;
-  padding: 30px;
-}
-.contentRight{
-  float: right;
-  width: 50%;
-  height: 200px;
-  padding: 30px;
-}
-
-.shimmery{
-  text-align: center;
-  color: white;
-  background-image: url(./img/story.png);
-  background-position: left;
-  background-size: cover;
-}
-.story .content{
-  background-color: #fff;
-  color: #754D46;
-}
-.brandStory{
-  text-align: center;
-  color: white;
-  background-image: url(./img/story.png);
-  background-position: left;
-  background-size: cover;
-}
-.story .content2{
-  background-color: #fff;
-  color: #754D46;
-}
-.brandConcept{
-  text-align: center;
-  color: white;
-  background-image: url(./img/story.png);
-  background-position: left;
-  background-size: cover;
-}
-.story .content3{
-  background-color: #fff;
-  color: #754D46;
-}
-.story h2, .story h3, .story p{
-  display: inline-block;
-  vertical-align: middle;
-  
-} */
-
-
 
 /* ----------------- RWD ----------------- */
 /*----------------- 768 (iPad) -------------------*/
