@@ -1,5 +1,6 @@
 # RWD-pages
 手刻RWD產品網站
+網站連結： https://seirachiang.github.io/RWD-pages/
 
 電腦版網站設定在螢幕768px以上
 平板版網站設定螢幕介於576px~768px
