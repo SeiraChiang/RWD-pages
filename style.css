@@ -191,7 +191,7 @@ footer ul {
   margin-right: 1rem;
 }
 
-footer ul.nav{
+footer ul.nav {
   justify-content: end;
 }
 
@@ -291,7 +291,7 @@ footer ul li img {
 
   a {
     font-size: 1.2rem;
-}
+  }
 
   /*--------- activity block -----------*/
   .activity h2,
@@ -315,7 +315,7 @@ footer ul li img {
   }
 }
 
-/*----------------- 576 (iPad) -------------------*/
+/*----------------- 576 (iPhone) -------------------*/
 @media screen and (max-width: 576px) {
 
   .py-3 {
@@ -416,9 +416,25 @@ footer ul li img {
     padding: 5px;
   }
 
+  .showProduct .sliderRow div {
+    margin-right: 0px;
+  }
+
   .showProduct .sliderRow div a {
     line-height: 1.5rem;
     padding: 5px 0;
+  }
+
+  .showProduct .slick-dots li,
+  .showProduct .slick-dots li button {
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+  }
+
+  .showProduct .slick-dots {
+    bottom: -15px;
+    left: -5px;
   }
 
   /*--------- movie block -----------*/
@@ -428,7 +444,6 @@ footer ul li img {
 
   .movie iframe {
     width: 100%;
-    height: 190px;
   }
 
   .movie h2 {
